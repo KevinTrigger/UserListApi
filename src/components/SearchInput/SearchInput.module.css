@@ -1,0 +1,9 @@
+.header__input {
+  background-color: var(--color-bg-input);
+  font-size: var(--fz-small);
+  color: var(--color-main-text);
+  padding: 16px;
+  width: 332px;
+  max-width: 100%;
+  border-radius: var(--border-medium);
+}

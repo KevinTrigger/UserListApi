@@ -1,0 +1,38 @@
+.aside {
+  border-radius: var(--border-medium);
+  color: var(--color-main-text); 
+  width: 332px; 
+  background-color: var(--color-bg-input);
+  padding: 24px;
+}
+
+.aside__title {
+  font-size: var(--fz-big);
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--color-hr);
+  margin: 24px 0;
+  padding: 0;
+}
+
+.block__title {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.block__subtitle {
+  color: var(--color-gray);
+  font-size: 14px;
+  display: flex;
+  margin-top: 12px;
+}
+
+.block__value {
+  color: var(--color-white);
+  margin-left: 18px;
+  font-size: 16px;
+}

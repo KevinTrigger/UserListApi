@@ -1,0 +1,1 @@
+export const API_GET_PEOPLE_URL = 'https://randomuser.me/api/?results=30';

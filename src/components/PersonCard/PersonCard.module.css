@@ -1,0 +1,72 @@
+.card__header {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.card__bio {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  flex-wrap: wrap;
+}
+
+.card__name {
+  font-size: var(--fz-big);
+}
+
+.card__name_active {
+  font-size: var(--fz-big);
+  color: var(--color-red-active);
+}
+
+.card__email {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.card__data {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
+}
+
+.data__item {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+}
+
+.data__title {
+  font-size: var(--fz-micro);
+  color: var(--color-titles);
+  min-width: 60px;
+}
+
+.data__value {
+  font-size: var(--fz-small);
+  margin-left: 16px;
+}
+
+.card__avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 30px;
+}
+
+.ul__card {
+  background-color: var(--color-bg-card);
+  padding: 20px;
+  border-radius: var(--border-medium);
+  height: 196px;
+  overflow: hidden;
+}
+
+.ul__card_active {
+  background-color: var(--color-bg-card);
+  padding: 20px;
+  border-radius: var(--border-medium);
+  height: 196px;
+  outline: var(--outline-style-active);
+  overflow: hidden;
+}

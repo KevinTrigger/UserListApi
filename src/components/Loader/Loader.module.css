@@ -1,0 +1,9 @@
+.spinner__wrap {
+  width: 100%;
+  
+}
+
+svg {
+  width: 80px;
+  height: 80px;
+}

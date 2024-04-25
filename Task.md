@@ -1,4 +1,4 @@
-# Task
+# Users - App Web
 
 ## Описание
 
@@ -30,17 +30,17 @@
 - Язык: [TypeScript](https://www.typescriptlang.org)
 - css modules
 
+### Желательно 🙂
 
-# Available Scripts
+- препроцессор: [SASS/SCSS](https://sass-lang.com/)
+- сетап через vite
 
-In the project directory, you can run:
+---
 
-## `npm start`
+## Критерии оценки
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
+- Архитектура
+- Читаемость кода
+- Оптимизация
+- Верстка css
 

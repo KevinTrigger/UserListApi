@@ -1,0 +1,33 @@
+@import './reset';
+@import './global';
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+
+body {
+  background-color: var(--color-bg-page);
+  padding: 32px;
+  margin: 0 auto;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  overflow: auto;
+}
+
+.content__wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* ширина scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: orange;        /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: blue;    /* цвет плашки */
+  border-radius: 20px;       /* закругления плашки */
+  border: 3px solid orange;  /* padding вокруг плашки */
+}

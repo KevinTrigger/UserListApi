@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__link {
+  color: var(--color-red-active);
+  cursor: pointer;
+  padding: 10px 16px;
+}

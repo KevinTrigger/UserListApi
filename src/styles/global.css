@@ -1,0 +1,21 @@
+:root {
+  --color-black: #000000;
+  --color-white: #fff;
+  --color-bg-page: #12141b;
+  --color-main-text: #DCD8D3;
+  --color-titles: #8E8E8E;
+  --color-bg-card: #1A1C23;
+  --color-red-active: #CF7B5A;
+  --color-red-border: #413331;
+  --color-gray: #8C8988;
+  --color-bg-input: #1E2027;
+  --color-hr: #303238;
+ 
+  --fz-micro: 12px;
+  --fz-small: 14px;
+  --fz-medium: 16px;
+  --fz-big: 20px;
+
+  --outline-style-active: 1px solid var(--color-red-border);
+  --border-medium: 16px;
+}

@@ -1,0 +1,8 @@
+.card__icon {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  outline: var(--outline-style-active);
+  padding: 10px;
+  cursor: pointer;
+}
